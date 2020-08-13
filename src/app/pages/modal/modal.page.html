@@ -1,0 +1,19 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"> Regresar</ion-back-button>
+    </ion-buttons>
+    <ion-title>Modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-title text-capitalize></ion-title>
+  <ion-button expand="full" (click)="abrirModal()">
+    Abrir modal
+  </ion-button>
+
+  <p>
+    {{nombre}} -- {{pais}}
+  </p>
+</ion-content>
